@@ -1,0 +1,44 @@
+body{
+ background-color:	#2C3539;
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+} 
+#settings{
+   color: black;
+   z-index: 2;
+}
+
+#settings ul,li{  
+font-family:Verdana, Arial, Helvetica, sans-serif;  
+font-size:14px;  
+}  	
+ 
+#setting_form{
+background-color:#BCC6CC  ;
+opacity:1;
+radius:3;
+} 
+
+#SettingInput{
+	background-color:#E5E4E2;
+}
+
+form ul li input, select, span {  
+float: left;  
+margin-bottom: 10px;  
+}   
+  
+#mainNav
+{
+    position: relative;
+    z-index: 2;
+}
+
+#dropdownItems{
+	opacity:0.6;
+}
+
